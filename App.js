@@ -1,5 +1,6 @@
 // IMPORTANT NOTE: If you rebuild this app, you must add "var app;" to the new 
 // deploy/App...html files just above "Rally.onReady(function () {"
+// Source Code Here: https://github.com/RallyRonnie/TeamCapacityGrid
 //
 Ext.define('CustomApp', {
     extend: 'Rally.app.TimeboxScopedApp',
@@ -57,7 +58,8 @@ Ext.define('CustomApp', {
 				{
 					text: 'User',
 					dataIndex: 'User',
-					flex: 1
+					flex: 1,
+					editor: false
 				},
 				{
 					text: 'Capacity',

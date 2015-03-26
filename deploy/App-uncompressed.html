@@ -6,7 +6,7 @@
     <script type="text/javascript" src="/apps/2.0/sdk.js"></script>
 
     <script type="text/javascript">
-	    var app;
+    	var app;
         Rally.onReady(function () {
                 // IMPORTANT NOTE: If you rebuild this app, you must add "var app;" to the new 
 // deploy/App...html files just above "Rally.onReady(function () {"
@@ -68,7 +68,8 @@ Ext.define('CustomApp', {
 				{
 					text: 'User',
 					dataIndex: 'User',
-					flex: 1
+					flex: 1,
+					editor: false
 				},
 				{
 					text: 'Capacity',
